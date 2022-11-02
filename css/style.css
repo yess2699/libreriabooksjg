@@ -1,0 +1,17 @@
+/* Declarar las constantes de colores y fuentes */
+:root{
+    /* fuentes*/
+    --titulos:'Montserrat', sans-serif;
+    --parrafos: 'Noto Sans', sans-serif;
+    /* colores */
+    --encabezado: #F29422;
+    --piepagina: #292F40;
+    --enlace: #fff;
+    --enlaceSobre: #F29422;
+    --fondo: #F2F2F2;
+    
+
+
+
+
+}
