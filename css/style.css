@@ -9,9 +9,44 @@
     --enlace: #fff;
     --enlaceSobre: #F29422;
     --fondo: #F2F2F2;
+  
     
+}
+
+/* selector universal (*) */
+*{
+    box-sizing: border-box;
+}
 
 
+/*notación de una clase en css es (.) y en html es class */
+.home-wrapper{
+    background-image: url(/images/categorias/book2.jpg);
+    background-size: cover;
 
+}
+
+/* header es un selector de etiqueta en el css */
+header{
+    width: 100%;
+    background-color:var(--encabezado);
+    position: fixed;
+    padding: 10px 0;
+}
+
+/* combinación de selectores de etiqueta en css */
+header nav{
+    float: right;
+    margin-top: 8px;
+}
+
+header img{
+    width: 200px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--enlace);
+    margin-left: 8px;
 
 }
